@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features= {"src/test/resources/skeleton/cartadd.feature"},
 				//glue= "skeleton",
-				plugin="html:target/htmlreport")
+				//plugin="html:target/htmlreport"
+		plugin="json:target/jsonreport.json)
 public class RunCukesTest {
 }
