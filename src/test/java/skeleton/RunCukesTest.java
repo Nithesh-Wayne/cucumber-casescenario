@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features= {"src/test/resources/skeleton/cartadd.feature"},
 				//glue= "skeleton",
 				//plugin="html:target/htmlreport"
-		plugin="json:target/jsonreport.json)
+		plugin="json:target/jsonreport.json")
 public class RunCukesTest {
 }
