@@ -81,7 +81,7 @@ public class Searchscenario {
 	public void user_clicks_product() {
 	    Actions action = new Actions(driver);
 	    WebElement search1=driver.findElement(By.xpath("//*[@id=\"myInput\"]"));
-	    action.sendKeys(search1,Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
+	   // action.sendKeys(search1,Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
 	    //action.moveToElement(search1).click().build().perform();
 	    
 	    
