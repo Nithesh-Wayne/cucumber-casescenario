@@ -2,7 +2,7 @@ Feature: Registration
 
 Scenario: Registration with valid credentials
 Given user opens signup page in TestMeApp
-When user enters username as "Lalit6"
+When user enters username as "Lalit8"
 And user enters firstname as "Lalith"
 And user enters lastname as "Suresh"
 And user enters password as "lalith123"
