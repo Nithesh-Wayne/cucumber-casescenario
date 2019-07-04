@@ -14,4 +14,4 @@ Then user clicks addtocart button
 
 Examples:
 |uname1|psd1|
-|Lalit7|lalith123|
+|lalitha|password123|
