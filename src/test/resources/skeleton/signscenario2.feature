@@ -8,4 +8,4 @@ Then click loginn
 
 Examples:
 |uname|psd|
-|Lalit7|lalith123|
+|lalitha|password123|
