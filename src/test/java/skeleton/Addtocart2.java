@@ -88,6 +88,7 @@ public class Addtocart2 {
 		WebElement cart=driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/div/div/div[2]/div/a[2]"));
 		cart.click();
 		if(driver.getTitle().equals("View Cart"))
+		// We are using the hard assert
 		{
 			Assert.assertFalse(true);
 		}
